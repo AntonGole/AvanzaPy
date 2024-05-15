@@ -1,6 +1,6 @@
 # Stock Trader
 
-A Python project for automated stock trading using the Avanza platform.
+A Python project for automated stock trading using unofficial Avanza API.
 
 ## Setup
 
