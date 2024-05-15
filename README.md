@@ -1,4 +1,4 @@
-# Stock Trader (IN PROCESS)
+# Avanza Trader (IN PROCESS)
 
 A Python project for automated stock trading using unofficial Avanza API.
 
