@@ -73,7 +73,7 @@ A Python project for automated stock trading using the unofficial Avanza API.
 
 1. **Initialize the session**:
     - If a valid session is found in the `session.json` file, it will be loaded.
-    - If no valid session is found, you will be prompted to log in and authenticate using TOTP.
+    - If no valid session is found, you will be prompted to log in.
 
 2. **Interactive Menu**:
     - The main script provides an interactive menu for different actions such as printing account details, checking total value, printing total development, searching for stocks, and viewing stock details for potential purchase.
