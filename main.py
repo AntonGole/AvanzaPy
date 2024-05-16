@@ -30,14 +30,14 @@ def main():
             get_balance(session, security_token)
             
             # Place an order
-            make_order(
-                session,
-                security_token,
-                orderbook_id="878733",
-                account_id="6407422",
-                amount="1",
-                orderbook_name="Avanza Global"
-            )
+            #make_order(
+            #    session,
+            #    security_token,
+            #    orderbook_id="878733",
+            #    account_id="6407422",
+            #    amount="1",
+            #    orderbook_name="Avanza Global"
+            #)
         else:
             print("TOTP authentication failed.")
     else:
