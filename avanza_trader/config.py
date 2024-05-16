@@ -1,4 +1,4 @@
-SECRET = 'YOUR_CODE_HERE'
+SECRET = 'your_totp_secret_here'
 
 SESSION_FILE = 'session/session.json'
 
