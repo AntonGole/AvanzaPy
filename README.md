@@ -6,7 +6,7 @@ A Python project for automated stock trading using the unofficial Avanza API.
 
 1. **Clone the repository**:
     ```
-    git clone https://github.com/your-username/avanza_trader.git
+    git clone https://github.com/AntonGole/avanza_trader.git
     cd avanza_trader
     ```
 
