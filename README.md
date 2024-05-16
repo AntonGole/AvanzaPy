@@ -25,5 +25,3 @@ Edit `config.py` to set your Avanza credentials and other configurations.
 - `utils/`: Utility modules for authentication, balance checking, and order placement
 
 ## Usage
-
-Follow the prompts to log in and perform trading operations.
