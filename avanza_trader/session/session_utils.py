@@ -59,7 +59,7 @@ def initialize_session():
             if totp_response.status_code == 200:
                 security_token = get_security_token(session)
                 # Save the session to a file
-                save_session(session, SESSION_FILE)
+                save_session(session)
                 print("Session saved.")
             else:
                 print("TOTP authentication failed.")
