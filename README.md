@@ -35,8 +35,12 @@ A Python project for automated stock trading using the unofficial Avanza API.
     ```
 
 3. **Generate a TOTP Code Manually**:
-    - Use the TOTP Secret to manually generate a TOTP code if required for the initial setup:
-    - You can use online TOTP generators or apps like Google Authenticator or Authy.
+    - Run the `generate_code.py` script to generate a TOTP code:
+    ```
+    python utils/generate_code.py
+    ```
+    - This script will print the current TOTP code using the provided TOTP Secret.
+
 
 ## Running the Application
 
