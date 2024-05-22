@@ -1,4 +1,4 @@
-# Avanza Trader 0.1.0
+# AvanzaPy 0.1.0
 
 A Python project for interacting with the Avanza platform using the unofficial Avanza API. 
 
@@ -10,14 +10,14 @@ For a detailed list of changes, please see the [CHANGELOG](CHANGELOG.md).
 
 ## Releases
 
-Detailed release notes are available in the [Releases section](https://github.com/AntonGole/avanza_trader/releases) on GitHub.
+Detailed release notes are available in the [Releases section](https://github.com/AntonGole/avanzapy/releases) on GitHub.
 
 ## Setup
 
 1. **Clone the repository**:
     ```
-    git clone https://github.com/AntonGole/avanza_trader.git
-    cd avanza_trader
+    git clone https://github.com/AntonGole/avanzapy.git
+    cd avanza_py
     ```
 
 2. **Install dependencies**:
@@ -27,7 +27,7 @@ Detailed release notes are available in the [Releases section](https://github.co
 
 3. **Configuration**:
     - Ensure the `SESSION_FILE` and `STOCKS_FILE` paths in `config.py` are correct.
-    - Make sure to get your TOTP Secret as described below.
+    - Obtain your TOTP Secret as described below.
 
 ## Getting Your TOTP Secret
 
@@ -50,7 +50,6 @@ Detailed release notes are available in the [Releases section](https://github.co
     python utils/generate_code.py
     ```
     - This script will print the current TOTP code using the provided TOTP Secret.
-
 
 ## Running the Application
 
