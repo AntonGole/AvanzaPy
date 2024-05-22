@@ -4,6 +4,8 @@ SESSION_FILE = 'session/session.json'
 
 STOCKS_FILE = 'data/stocks.json'
 
+SESSION_EXPIRY_TIME = 3600
+
 BASE_URL = 'https://www.avanza.se'
 
 PERSISTENCE_COOKIE = 'AZAPERSISTENCE=YOUR_PERSISTENCE_COOKIE'

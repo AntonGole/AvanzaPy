@@ -4,7 +4,8 @@ import requests
 from getpass import getpass
 from config import SECRET
 from utils.auth import send_login_request, send_totp_request, generate_totp_code
-from config import SESSION_FILE
+from config import SESSION_FILE, SESSION_EXPIRY_TIME
+import time
 
 def create_session():
     return requests.Session()
@@ -22,6 +23,9 @@ def load_session(session):
         session.cookies.update(cookies)
     return True
 
+def get_file_modification_time(file_path):
+    return os.path.getmtime(file_path)
+
 def get_security_token(session):
     cookies = session.cookies
     for cookie in cookies:
@@ -36,9 +40,15 @@ def initialize_session():
     # Check if session file exists and load it
     if os.path.exists(SESSION_FILE):
         print("Loading session from file...")
-        load_session(session)
-        print("Session loaded.")
-        security_token = get_security_token(session)
+        session_loaded = load_session(session)
+        if session_loaded:
+            file_mod_time = get_file_modification_time(SESSION_FILE)
+            current_time = time.time()
+            if current_time - file_mod_time < SESSION_EXPIRY_TIME:
+                print("Session loaded.")
+                security_token = get_security_token(session)
+            else:
+                print("Session expired. Creating a new session.")
 
     if not security_token:
         username = input("Enter your username: ")
