@@ -1,6 +1,6 @@
 # Avanza Trader
 
-A Python project for automated stock trading using the unofficial Avanza API.
+A Python project for interacting with the Avanza platform using the unofficial Avanza API. This project allows you to manage your Avanza account, check your portfolio, search for stocks, and place orders directly from Python.
 
 ## Setup
 
