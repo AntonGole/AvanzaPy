@@ -1,4 +1,4 @@
-# Avanza Trader 1.0
+# Avanza Trader 0.1.0
 
 A Python project for interacting with the Avanza platform using the unofficial Avanza API. 
 
