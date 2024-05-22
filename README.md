@@ -4,6 +4,14 @@ A Python project for interacting with the Avanza platform using the unofficial A
 
 **Note:** This project is in its early stages of development. Features and functionality are limited and may change frequently.
 
+## Changelog
+
+For a detailed list of changes, please see the [CHANGELOG](CHANGELOG.md).
+
+## Releases
+
+Detailed release notes are available in the [Releases section](https://github.com/AntonGole/avanza_trader/releases) on GitHub.
+
 ## Setup
 
 1. **Clone the repository**:
